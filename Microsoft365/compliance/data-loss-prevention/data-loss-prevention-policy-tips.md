@@ -39,15 +39,15 @@ This article describes the following common scenarios in which DLP policy tips m
 
 Policy is configured by using **User notifications**, but the status of the policy doesn't match the settings in the rule. Here's an example in which the policy is turned on but the policy status shows **Test it out first**.
 
-:::image type="content" source="media/troubleshooting-data-loss-protection-policy-tips/user-notifications.png" alt-text="Screenshot of user notifications.":::
+![Screenshot of user notification](media/troubleshooting-data-loss-protection-policy-tips/user-notifications.png)
 
-:::image type="content" source="media/troubleshooting-data-loss-protection-policy-tips/policy-status.png" alt-text="Screenshot of the window titled Test or turn on the policy. The status titled Test it out first is highlighted in the policy status.":::
+![Screenshot of window titles Test](media/troubleshooting-data-loss-protection-policy-tips/policy-status.png)
 
 A policy configuration error might also occur if the policy is configured by using two or more rules that detect the same sensitive data types that have the same **Instance count** value and confidence level.
 
-:::image type="content" source="media/troubleshooting-data-loss-protection-policy-tips/ssn-rule.png" alt-text="Screenshot of SSN rule that is configured to have the detection based on sensitive info types.":::
+![Screenshot of SSN Rule](media/troubleshooting-data-loss-protection-policy-tips/ssn-rule.png)
 
-:::image type="content" source="media/troubleshooting-data-loss-protection-policy-tips/ssn-content-rule.png" alt-text="Screenshot of SSN Content rule that is configured to have the detection based on sensitive info types.":::
+![Screenshot of SSN Content Rule](media/troubleshooting-data-loss-protection-policy-tips/ssn-content-rule.png)
 
 This kind of setup is unnecessary and problematic. Only one rule is required.
 
